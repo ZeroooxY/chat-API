@@ -19,5 +19,5 @@ class ConversationsController < ApplicationController
   private
     def conversation_params
       params.permit(:sender_id, :receiver_id)
-    end
+    end 
 end
